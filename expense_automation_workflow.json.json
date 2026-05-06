@@ -1,0 +1,165 @@
+{
+  "name": "My workflow",
+  "nodes": [
+    {
+      "parameters": {
+        "pollTimes": {
+          "item": [
+            {
+              "mode": "everyMinute"
+            }
+          ]
+        },
+        "documentId": {
+          "__rl": true,
+          "value": "1xqadKxA0LdHBsuiv8XzQMPVJb8ulX5mHsKqKdb5gV0c",
+          "mode": "list",
+          "cachedResultName": "Form",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1xqadKxA0LdHBsuiv8XzQMPVJb8ulX5mHsKqKdb5gV0c/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": 82409797,
+          "mode": "list",
+          "cachedResultName": "expense tracker",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1xqadKxA0LdHBsuiv8XzQMPVJb8ulX5mHsKqKdb5gV0c/edit#gid=82409797"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheetsTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "58870ba0-007a-4d33-a7bf-ab2414bac743",
+      "name": "Google Sheets Trigger",
+      "credentials": {
+        "googleSheetsTriggerOAuth2Api": {
+          "id": "C54PdbquagLjT21y",
+          "name": "Google Sheets Trigger OAuth2 API"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "dcba3a09-811b-4f39-91e1-542177196f78",
+              "name": "Employee Name",
+              "value": "={{ $json['Employee Name'] }}",
+              "type": "string"
+            },
+            {
+              "id": "5efbc9b4-d9d6-4bd2-91de-3c9e46730481",
+              "name": "Department",
+              "value": "={{ $json.Department }}",
+              "type": "string"
+            },
+            {
+              "id": "a369a822-ed86-4c5c-b42b-05e740e113a6",
+              "name": "Expense Date",
+              "value": "={{ $json['Expense Date'] }}",
+              "type": "number"
+            },
+            {
+              "id": "d86b2ca0-4cbd-4781-9775-e6297ac59132",
+              "name": "Category",
+              "value": "={{ $json.Category }}",
+              "type": "string"
+            },
+            {
+              "id": "2d24635e-8e71-4509-b963-cdbc0b9dad64",
+              "name": "Amount",
+              "value": "={{ $json.Amount }}",
+              "type": "number"
+            },
+            {
+              "id": "29c1606b-9166-4d6c-be25-662c2ed8fda4",
+              "name": "Mode Of Payment",
+              "value": "={{ $json['Mode Of Payment'] }}",
+              "type": "string"
+            },
+            {
+              "id": "3ab3025d-2232-4dbe-8ff6-3c107de0dc1b",
+              "name": "Remarks ",
+              "value": "={{ $json['Remarks '] }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        208,
+        0
+      ],
+      "id": "01082d58-72b0-4a90-9815-e08ad6f7de0a",
+      "name": "Edit Fields"
+    },
+    {
+      "parameters": {
+        "sendTo": "shreyathakkar0410@gmail.com",
+        "subject": "New Expense Submitted",
+        "emailType": "text",
+        "message": "=A new expense has been submitted.\n\nEmployee NAME: {{ $json['Employee Name'] }}\nDepartment: {{ $json.Department }}\nAmount: {{ $json.Amount }}\nCategory: {{ $json.Category }}\nDate: {{ $json['Expense Date'] }}\nREMARKS: {{ $json['Remarks '] }}\nPayment mode: {{ $json['Mode Of Payment'] }}\n\nRegards,\nExpense Automation System",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.2,
+      "position": [
+        416,
+        0
+      ],
+      "id": "6bd516c4-0d14-4b75-916b-64f9c8901460",
+      "name": "Send a message",
+      "webhookId": "07c2cdad-2d54-4410-870b-22309f30b94e",
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "XdiMEfClF5mjutEm",
+          "name": "Gmail OAuth2 API"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Google Sheets Trigger": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Edit Fields": {
+      "main": [
+        [
+          {
+            "node": "Send a message",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "versionId": "e40b99b1-0520-4099-904a-423f178fefc1",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "8d94d7dda4bbaadb990dbb528cf3c2cca228122acd224d1bbc096cd0c3fb4695"
+  },
+  "id": "oMpy206q40lyKlMN",
+  "tags": []
+}
