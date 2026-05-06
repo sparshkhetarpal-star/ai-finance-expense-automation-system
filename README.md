@@ -76,27 +76,18 @@ Finance-Automation-Project/
 
 ---
 
-## 📸 Screenshots  
-
+Screenshorts
 ### 1. Google Form Interface  
-![Google Form](/Users/sparshkhetarpal/Desktop/FINANCE_AUTOMATION/google_form.png.png)
-
----
+![Google Form](screenshots/google_form.png)
 
 ### 2. Google Sheet Data Capture  
-![Google Sheet](/Users/sparshkhetarpal/Desktop/FINANCE_AUTOMATION/Google_sheets.jpg)
-
----
+![Google Sheet](screenshots/Google_sheets.jpg)
 
 ### 3. n8n Workflow Architecture  
-![n8n Workflow](/Users/sparshkhetarpal/Desktop/FINANCE_AUTOMATION/workflow_diagram.png.png)
-
----
+![n8n Workflow](screenshots/workflow_diagram.png)
 
 ### 4. Email Notification Output  
-![Email Notification](/Users/sparshkhetarpal/Desktop/FINANCE_AUTOMATION/email.PNG)
----
-
+![Email Notification](screenshots/email.PNG)
 ## ⭐ Key Features
 
 * Automated expense data capture
