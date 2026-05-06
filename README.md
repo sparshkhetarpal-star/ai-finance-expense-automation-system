@@ -79,23 +79,22 @@ Finance-Automation-Project/
 ## 📸 Screenshots
 
 ### 1. Google Form Interface
-![Google Form](screenshots/form_view.jpeg)
+![Google Form](form_view.jpeg)
 
 ---
 
 ### 2. Google Sheet Data Capture
-![Google Sheet](screenshots/sheet_data.jpeg)
+![Google Sheet](sheet_data.jpeg)
 
 ---
 
 ### 3. n8n Workflow Architecture
-![n8n Workflow](screenshots/workflow_diagram.jpeg)
+![n8n Workflow](workflow_diagram.jpeg)
 
 ---
 
 ### 4. Email Notification Output
-![Email Notification](screenshots/email_notification.jpeg)
-
+![Email Notification](email_notification.jpeg)
 ---
 
 ## ⭐ Key Features
