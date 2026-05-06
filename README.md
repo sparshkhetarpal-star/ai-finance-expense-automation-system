@@ -59,19 +59,13 @@ Google Form → Google Sheets → n8n Workflow → Email Notification → Power 
 ## 📁 Project Structure
 
 ```text
-Finance-Automation-Project/
-│
-├── n8n_workflow/
-│   └── expense_automation_workflow.json
-│
-├── ppt/
-│   └── expense_tracker_presentation.pptx
-│
-├── screenshots/
-│   ├── form_view.png
-│   ├── sheet_data.png
-│   ├── workflow_diagram.png
-│   └── email_notification.png
+ai-finance-expense-automation-system/
+ ├── README.md
+ ├── screenshots/
+ │    ├── form_view.jpeg
+ │    ├── sheet_data.jpeg
+ │    ├── workflow_diagram.jpeg
+ │    ├── email_notification.jpeg
 ```
 
 ---
