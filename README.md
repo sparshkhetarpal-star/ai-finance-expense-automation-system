@@ -59,13 +59,19 @@ Google Form → Google Sheets → n8n Workflow → Email Notification → Power 
 ## 📁 Project Structure
 
 ```text
-ai-finance-expense-automation-system/
- ├── README.md
- ├── screenshots/
- │    ├── form_view.jpeg
- │    ├── sheet_data.jpeg
- │    ├── workflow_diagram.jpeg
- │    ├── email_notification.jpeg
+Finance-Automation-Project/
+│
+├── n8n_workflow/
+│   └── expense_automation_workflow.json
+│
+├── ppt/
+│   └── expense_tracker_presentation.pptx
+│
+├── screenshots/
+│   ├── form_view.png
+│   ├── sheet_data.png
+│   ├── workflow_diagram.png
+│   └── email_notification.png
 ```
 
 ---
@@ -73,22 +79,27 @@ ai-finance-expense-automation-system/
 ## 📸 Screenshots
 
 ### 1. Google Form Interface
-![Google Form](screenshots/form_view.jpeg)
+
+![Google Form](https://raw.githubusercontent.com/deeksha29-bawa/ai-finance-expense-automation-system-/main/form_view.png)
 
 ---
 
 ### 2. Google Sheet Data Capture
-![Google Sheet](screenshots/sheet_data.jpeg)
+
+![Google Sheet](https://raw.githubusercontent.com/deeksha29-bawa/ai-finance-expense-automation-system-/main/sheet_data.png)
 
 ---
 
 ### 3. n8n Workflow Architecture
-![n8n Workflow](screenshots/workflow_diagram.jpeg)
+
+![n8n Workflow](https://raw.githubusercontent.com/deeksha29-bawa/ai-finance-expense-automation-system-/main/workflow_diagram.png)
 
 ---
 
 ### 4. Email Notification Output
-![Email Notification](screenshots/email_notification.jpeg)
+
+![Email Notification](https://raw.githubusercontent.com/deeksha29-bawa/ai-finance-expense-automation-system-/main/email_notification.png)
+
 ---
 
 ## ⭐ Key Features
@@ -148,7 +159,7 @@ This project shows how automation and AI-driven workflows can transform traditio
 
 ## 👩‍💼 Author
 
-**Sparsh Khetarpal**
+**Deeksha Bawa**
 MBA Finance Student | AI in Finance Practitioner
 
 ---
