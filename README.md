@@ -79,26 +79,22 @@ Finance-Automation-Project/
 ## 📸 Screenshots
 
 ### 1. Google Form Interface
-
-![Google Form](https://raw.githubusercontent.com/deeksha29-bawa/ai-finance-expense-automation-system-/main/form_view.png)
+![Google Form](screenshots/form_view.jpeg)
 
 ---
 
 ### 2. Google Sheet Data Capture
-
-![Google Sheet](https://raw.githubusercontent.com/deeksha29-bawa/ai-finance-expense-automation-system-/main/sheet_data.png)
+![Google Sheet](screenshots/sheet_data.jpeg)
 
 ---
 
 ### 3. n8n Workflow Architecture
-
-![n8n Workflow](https://raw.githubusercontent.com/deeksha29-bawa/ai-finance-expense-automation-system-/main/workflow_diagram.png)
+![n8n Workflow](screenshots/workflow_diagram.jpeg)
 
 ---
 
 ### 4. Email Notification Output
-
-![Email Notification](https://raw.githubusercontent.com/deeksha29-bawa/ai-finance-expense-automation-system-/main/email_notification.png)
+![Email Notification](screenshots/email_notification.jpeg)
 
 ---
 
