@@ -159,7 +159,7 @@ This project shows how automation and AI-driven workflows can transform traditio
 
 ## 👩‍💼 Author
 
-**Deeksha Bawa**
+**SPARSH KHETARPAL**
 MBA Finance Student | AI in Finance Practitioner
 
 ---
