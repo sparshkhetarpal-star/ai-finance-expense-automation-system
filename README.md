@@ -76,18 +76,27 @@ Finance-Automation-Project/
 
 ---
 
-Screenshorts
-### 1. Google Form Interface  
-![Google Form](screenshots/google_form.png)
+## 📸 Screenshots
 
-### 2. Google Sheet Data Capture  
-![Google Sheet](screenshots/Google_sheets.jpg)
+### 1. Google Form Interface
+![Google Form](screenshots/form_view.jpeg)
 
-### 3. n8n Workflow Architecture  
-![n8n Workflow](screenshots/workflow_diagram.png)
+---
 
-### 4. Email Notification Output  
-![Email Notification](screenshots/email.PNG)
+### 2. Google Sheet Data Capture
+![Google Sheet](screenshots/sheet_data.jpeg)
+
+---
+
+### 3. n8n Workflow Architecture
+![n8n Workflow](screenshots/workflow_diagram.jpeg)
+
+---
+
+### 4. Email Notification Output
+![Email Notification](screenshots/email_notification.jpeg)
+---
+
 ## ⭐ Key Features
 
 * Automated expense data capture
@@ -145,7 +154,7 @@ This project shows how automation and AI-driven workflows can transform traditio
 
 ## 👩‍💼 Author
 
-**SPARSH KHETARPAL**
+**Sparsh Khetarpal**
 MBA Finance Student | AI in Finance Practitioner
 
 ---
